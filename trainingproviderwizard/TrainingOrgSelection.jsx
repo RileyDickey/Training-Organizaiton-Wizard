@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { Formik, Form, Field, withFormik } from 'formik';
-import debug from 'sabio-debug';
+import debug from 'debug';
 import trainingFormSchema from '../../schemas/trainingFormSchema';
 import { Card } from 'react-bootstrap';
 import * as trainingOrgService from '../../services/trainingOrgService';
