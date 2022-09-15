@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import PropTypes, { string } from 'prop-types';
-import sabioDebug from 'sabio-debug';
+import Debug from 'debug';
 import Loki from 'react-loki';
 import './trainingproviderwizard.css';
 import '../subcontractorwizard/subcontractorwizard.css';
@@ -12,7 +12,7 @@ import TrainingOrgAddForm from './TrainingOrgAddForm';
 import TrainingOrgSelection from './TrainingOrgSelection';
 import organizationService from '../../services/organizationService';
 
-const _logger = sabioDebug.extend('TrainingProviderWizard');
+const _logger = Debug.extend('TrainingProviderWizard');
 
 const TrainingProviderWizard = (props) => {
     const [trainingOrg, setTrainingOrg] = useState([]);
@@ -26,7 +26,7 @@ const TrainingProviderWizard = (props) => {
     useEffect(() => {
         const getUsersOrg = (userOrg) => {
             if (userOrg.length === 0) {
-                organizationService.getOrganizationByUserId(props.currentUser.id).then(getUserOrgsSuccess);
+                organizationService.getOrganizationByUserId(props.xx.xx).then(getUserOrgsSuccess);
             }
         };
         getUsersOrg(trainingOrg);
