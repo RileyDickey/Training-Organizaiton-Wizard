@@ -15,7 +15,7 @@ const TrainingProviderIntro = (props) => {
             <div className="trainer-container row">
                 <div className="col-sm">
                     <div>
-                        <h4 className="trainer-welcome">Welcome to Tekton!</h4>
+                        <h4 className="trainer-welcome">Welcome!</h4>
                         <br></br>
                         <h4>This Wizard will guide you in setting up all of your Organizations Training Information</h4>
                     </div>
