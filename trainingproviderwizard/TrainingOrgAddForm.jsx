@@ -3,7 +3,7 @@ import { withFormik } from 'formik';
 import PropTypes from 'prop-types';
 import { subcontractorInfoSchema } from '../../schemas/subcontractorSchemas';
 import toastr from 'toastr';
-import debug from 'sabio-debug';
+import debug from 'debug';
 import { Card, ListGroup, Button } from 'react-bootstrap';
 import * as trainingOrgService from '../../services/trainingOrgService';
 const _logger = debug.extend('TrainingProviderForm');
