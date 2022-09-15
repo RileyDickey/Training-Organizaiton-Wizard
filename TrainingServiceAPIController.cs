@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Flow.Models;
+using Flow.Models.Domain;
+using Flow.Models.Requests;
+using Flow.Services;
+using Flow.Services.Interfaces;
+using Flow.Web.Controllers;
+using Flow.Web.Models.Responses;
 using System;
 using System.Collections.Generic;
 
-namespace Sabio.Web.Api.Controllers
+namespace Flow.Web.Api.Controllers
 {
     [Route("api/trainingproviders")]
     [ApiController]
